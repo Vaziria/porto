@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "/porto",
   "scripts": {
     "dev": "vite",
-    "build": "rmdir /s /q docs && tsc -b && vite build && ren build docs ",
+    "build": "rmdir /s /q docs && tsc -b && vite build && ren dist docs ",
     "lint": "eslint .",
     "preview": "vite preview"
   },
