@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import Skill from "@/components/custom/skill";
+import pp from './assets/pp.jpg';
 
 
 const projects = [
@@ -75,7 +76,7 @@ export default function PortfolioPage() {
       {/* Profile Header */}
       <Card className="w-full max-w-3xl text-center p-6">
         <Avatar className="w-24 h-24 mx-auto">
-          <AvatarImage src="/pp.jpg" alt="Profile" />
+          <AvatarImage src={pp} alt="Profile" />
           <AvatarFallback>JD</AvatarFallback>
         </Avatar>
         <h2 className="text-2xl font-semibold mt-4">Heri Santoso</h2>
